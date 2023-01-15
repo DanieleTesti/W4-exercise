@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap");
+header {
+  background-color: #ffc017;
+  padding: 1em;
+}
+
+.mainNav {
+  /* position: sticky; */
+}
+
+body {
+  margin: 0px;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  margin: 0 5em;
+}
+
+.mainNav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.mainNav li {
+  margin-right: 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+}
+
+button {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 7px 16px 9px;
+}
+
+header hr {
+  border-color: black;
+}
+
+.allStart p {
+  margin-bottom: 1em;
+}
+
+.start {
+  padding: 6em;
+}
+
+.start h1 {
+  font-size: 96px;
+}
+
+.start p {
+  font-size: xx-large;
+}
+
+main > div {
+  display: flex;
+}
+
+.icon-trend {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  /* box-sizing: inherit; */
+  justify-content: space-between;
+  /* margin: 1.5em 0 0 0; */
+}
+
+.trending {
+  margin: 1em 5em 1em 5em;
+}
+
+.trend {
+  display: flex;
+  padding-right: 15px;
+  width: 25%;
+  margin-bottom: 1em;
+}
+
+.trendNum {
+  font-size: 30px;
+  /* width: 40px; */
+  margin-right: 0.5em;
+  color: rgba(128, 128, 128, 0.461);
+}
+
+/* .trendInfo {
+  padding-bottom: 1em;
+} */
+
+.trendInfo > div {
+  display: flex;
+}
+
+.trendInfo h6 {
+  font-size: 16px;
+  margin: 0 0 0 5px;
+}
+
+.description h5 {
+  font-weight: bold;
+  margin: 0.5em 0 0.5em;
+  /* font-size: 22px; */
+}
+
+.description p {
+  font-size: 13px;
+  margin: 0em;
+}
+
+.trend .trendInfo > div > img {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+/* .trendInfo > div > img {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+} */
+
+.tweet .description {
+  display: block;
+}
+
+.photo {
+  width: 200px;
+  height: 134px;
+}
+
+.secondPosts {
+  margin: 1em 5em 1em 5em;
+}
+
+.secondPosts .description {
+  font-size: 22px;
+}
+
+.secondPosts .description h6 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.tweet > .post > .trendInfo > div > img {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+aside {
+  width: 30%;
+  margin-left: 5em;
+}
+
+.forYou {
+  border: 1px solid rgba(128, 128, 128, 0.504);
+  background-color: white;
+  color: grey;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+/*  */
+#secondArticle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+.sezione {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+#secondArticle .sezione .write {
+  align-self: stretch;
+}
+.write h5 {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+.sezione > img {
+  width: 250px;
+}
+#secondArticle h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.write > h4 > img {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+
+aside hr {
+  color: lightgrey;
+  margin-top: 2em;
+}
+
+aside ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+aside li {
+  margin: 0.5em 1em 0.5em 0em;
+}
+
+aside h5 {
+  margin-bottom: 1em;
+}
