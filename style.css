@@ -5,7 +5,8 @@ header {
 }
 
 .mainNav {
-  /* position: sticky; */
+  position: sticky;
+  z-index: 10;
 }
 
 body {
@@ -51,12 +52,17 @@ header hr {
 }
 
 .start {
-  padding: 6em;
+  padding: 6em 0 6em 6em;
+  display: flex;
 }
 
 .start h1 {
   font-size: 96px;
 }
+
+/* .allM {
+  width: 100%;
+} */
 
 .start p {
   font-size: xx-large;
