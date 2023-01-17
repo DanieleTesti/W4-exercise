@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap");
 header {
   background-color: #ffc017;
-  padding: 1em;
+  padding-top: 1em;
+  border-bottom: 1px solid black;
 }
 
 .mainNav {
@@ -17,7 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  margin: 0 5em;
+  border-bottom: 1px solid black;
 }
 
 .mainNav ul {
@@ -35,6 +36,11 @@ body {
   display: flex;
 }
 
+.start {
+  display: flex;
+  justify-content: space-between;
+}
+
 button {
   border: none;
   background-color: black;
@@ -47,13 +53,13 @@ header hr {
   border-color: black;
 }
 
-.allStart p {
-  margin-bottom: 1em;
+.allStart {
+  width: 50%;
+  padding-left: 100px;
 }
 
-.start {
-  padding: 6em 0 6em 6em;
-  display: flex;
+.allStart p {
+  margin-bottom: 1em;
 }
 
 .start h1 {
@@ -61,7 +67,7 @@ header hr {
 }
 
 /* .allM {
-  width: 100%;
+  justify-content: space-between;
 } */
 
 .start p {
