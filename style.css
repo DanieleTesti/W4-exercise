@@ -3,45 +3,46 @@ header {
   background-color: #ffc017;
   padding-top: 1em;
   border-bottom: 1px solid black;
-}
-
-.mainNav {
   position: sticky;
   z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  top: 0;
+}
+
+header.scrolled {
+  background-color: white;
 }
 
 body {
   margin: 0px;
 }
 
-.mainNav {
-  display: flex;
-  justify-content: space-between;
-  padding: 1em;
-  border-bottom: 1px solid black;
-}
-
-.mainNav ul {
+nav ul {
   list-style-type: none;
   display: flex;
 }
 
-.mainNav li {
+nav li {
   margin-right: 20px;
   font-size: 1.1em;
   cursor: pointer;
 }
 
-.menu {
+nav {
   display: flex;
 }
 
 .start {
   display: flex;
   justify-content: space-between;
+  background-color: #ffc017;
+  padding-top: 1em;
+  border-bottom: 1px solid black;
 }
 
-button {
+.bottoni {
   border: none;
   background-color: black;
   color: white;
@@ -49,8 +50,8 @@ button {
   padding: 7px 16px 9px;
 }
 
-header hr {
-  border-color: black;
+.bottoni:hover {
+  cursor: pointer;
 }
 
 .allStart {
@@ -88,9 +89,8 @@ main > div {
 .reviews {
   display: flex;
   flex-wrap: wrap;
-  /* box-sizing: inherit; */
   justify-content: space-between;
-  /* margin: 1.5em 0 0 0; */
+  cursor: pointer;
 }
 
 .trending {
@@ -149,6 +149,7 @@ main > div {
 
 .tweet .description {
   display: block;
+  cursor: pointer;
 }
 
 .photo {
@@ -202,6 +203,7 @@ aside {
   padding: 20px 0;
 }
 #secondArticle .sezione .write {
+  cursor: pointer;
   align-self: stretch;
 }
 .write h5 {
@@ -238,6 +240,7 @@ aside ul {
 
 aside li {
   margin: 0.5em 1em 0.5em 0em;
+  cursor: pointer;
 }
 
 aside h5 {
